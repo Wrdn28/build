@@ -6,6 +6,7 @@ repo sync -c -j$(nproc --all) --no-clone-bundle --no-tags --optimized-fetch --pr
 # Set up build environment
 export BUILD_HOSTNAME=crave
 export BUILD_USERNAME=Hirokixd
+export TZ=Asia/Jakarta 
 source build/envsetup.sh
 # Lunch configuration
 lunch lineage_ginkgo-userdebug
